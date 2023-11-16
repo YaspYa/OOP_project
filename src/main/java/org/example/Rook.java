@@ -4,7 +4,7 @@ public class Rook extends Figure {
     public Rook(int row, int column, boolean is_white) {
         this.set_coordinates(row, column);
         this.set_is_white(is_white);
-        this.name = "Rook";
+        this.set_name("Rook");
         // Для рокировки треба бути додати змінну, що вона не ходила!
     }
 

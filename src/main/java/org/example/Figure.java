@@ -3,7 +3,7 @@ package org.example;
 public class Figure {
     private int row, column;
     private boolean is_white;
-    public String name;
+    private String name;
 
     public int[] return_coordinates() {
         return new int[] { this.row, this.column };
@@ -12,6 +12,14 @@ public class Figure {
     public void set_coordinates(int row, int column) {
         this.row = row;
         this.column = column;
+    }
+
+    public String get_name() {
+        return this.name;
+    }
+
+    public void set_name(String name) {
+        this.name = name;
     }
 
     public boolean is_white() {

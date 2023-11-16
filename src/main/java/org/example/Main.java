@@ -18,9 +18,9 @@ public class Main {
             for (int j = 0; j < 8; j++) {
                 if (position[i][j] != null) {
                     if (position[i][j].is_white()) {
-                        System.out.printf("W " + position[i][j].name + "   ");
+                        System.out.printf("W " + position[i][j].get_name() + "   ");
                     } else {
-                        System.out.printf("B " + position[i][j].name + "   ");
+                        System.out.printf("B " + position[i][j].get_name() + "   ");
                     }
                 } else {
                     System.out.printf("null     ");
